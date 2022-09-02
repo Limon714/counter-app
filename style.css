@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.counter-div{
+    background: rgb(88, 10, 85);
+    width: 20rem;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.counter-div>*{
+    margin-bottom: 1rem;
+}
+
+.count{
+    font-size:3rem;
+}
+button{
+    padding: 10px;
+    margin: 0 4px;
+    border: none;
+}
+.sub{
+    background:rgb(214, 73, 73);
+    color: aliceblue;
+}
+.add{
+    background: rgb(73, 126, 13);
+    color: aliceblue;
+}
